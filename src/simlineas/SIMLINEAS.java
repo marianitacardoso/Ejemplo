@@ -23,7 +23,7 @@ public class SIMLINEAS {
      Object [] colores ={"___","1.DD1","2.DDS"}; 
     Object opcion = JOptionPane.showInputDialog(null,"SELECCIONA UNA OPCION", "Elegir",JOptionPane.QUESTION_MESSAGE,null,colores, colores[0]);
 
-    
+    //otro ejemplo mas 
       if (opcion.toString().equalsIgnoreCase("1.DD1")){
           Scanner R=new Scanner(System.in);
         R.useLocale(new Locale("es","MX"));
