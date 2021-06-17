@@ -19,7 +19,7 @@ public class SIMLINEAS {
      */
    public static void main(String[] args) throws IOException{
        BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
-         
+         //ejemplo de semi lineas
      Object [] colores ={"___","1.DD1","2.DDS"}; 
     Object opcion = JOptionPane.showInputDialog(null,"SELECCIONA UNA OPCION", "Elegir",JOptionPane.QUESTION_MESSAGE,null,colores, colores[0]);
 
